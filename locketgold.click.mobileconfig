@@ -3,9 +3,9 @@
 <plist version="1.0">
   <dict>
     <key>PayloadDisplayName</key>
-    <string>locketgold.click</string>
+    <string>DNS locketgold.click</string>
     <key>PayloadDescription</key>
-    <string>Profile DNS cho locketgold.click - Chức năng: Kích hoạt DNS mã hóa HTTPS trên tất cả mạng, bảo vệ quyền riêng tư, chặn quảng cáo và mã độc, tăng tốc độ duyệt web. Sử dụng NextDNS với domain locketgold.click để cung cấp dịch vụ DNS bảo mật.</string>
+    <string>Cấu hình DNS cho locketgold.click</string>
     <key>PayloadIdentifier</key>
     <string>com.locketgold.click.dns.profile</string>
     <key>PayloadScope</key>
@@ -24,7 +24,7 @@
           <key>DNSProtocol</key>
           <string>HTTPS</string>
           <key>ServerURL</key>
-          <string>https://apple.dns.nextdns.io/b61493/locketgold.click</string>
+          <string>https://dns.locketgold.click/dns-query</string>
         </dict>
         <key>OnDemandRules</key>
         <array>
@@ -39,11 +39,6 @@
                 <key>Domains</key>
                 <array>
                   <string>captive.apple.com</string>
-                  <string>dav.orange.fr</string>
-                  <string>vvm.mobistar.be</string>
-                  <string>vvm.mstore.msg.t-mobile.com</string>
-                  <string>tma.vvm.mone.pan-net.eu</string>
-                  <string>vvm.ee.co.uk</string>
                 </array>
               </dict>
             </array>
@@ -56,11 +51,11 @@
         <key>PayloadType</key>
         <string>com.apple.dnsSettings.managed</string>
         <key>PayloadIdentifier</key>
-        <string>com.locketgold.click.dns.profile.dnsSettings</string>
+        <string>com.locketgold.click.dns.profile.dnsSettings.managed</string>
         <key>PayloadUUID</key>
-        <string>C3G4H484-FD95-62H8-DF44-4G64C65C5E16</string>
+        <string>B2F3G373-EC84-51G7-CE33-3F53B54B4D05.dnsSettings.managed</string>
         <key>PayloadDisplayName</key>
-        <string>locketgold.click DNS Settings</string>
+        <string>DNS locketgold.click</string>
         <key>PayloadOrganization</key>
         <string>locketgold.click</string>
         <key>PayloadVersion</key>
@@ -69,4 +64,3 @@
     </array>
   </dict>
 </plist>
-
